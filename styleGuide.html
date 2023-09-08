@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- https://yoksel.github.io/url-encoder/ -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <style>
+      body {
+        font-family: "ClashDisplay-Light";
+      }
+      .flex {
+        display: flex;
+        padding: 20px;
+      }
+      .col {
+        flex-direction: column;
+      }
+      .box {
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+      }
+      .darkPrimary {
+        background-color: var(--dark-primary);
+      }
+
+      .primary {
+        background-color: var(--primary);
+      }
+
+      .lightGrey {
+        background-color: var(--light-grey);
+      }
+
+      .borderGrey {
+        background-color: var(--border-grey);
+      }
+      .white {
+        background-color: var(--white);
+      }
+      .borderDark {
+        background-color: var(--border-dark);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Checkbox</h1>
+    <div class="flex col lightGrey">
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="flexCheckIndeterminateDisabled"
+        />
+        <label class="form-check-label" for="flexCheckIndeterminateDisabled">
+          Furniture
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          checked="checked"
+          id="flexCheckIndeterminateDisabled"
+        />
+        <label class="form-check-label" for="flexCheckIndeterminateDisabled">
+          Homeware
+        </label>
+      </div>
+    </div>
+    <h1>Text Input</h1>
+    <div class="flex col primary">
+      <div class="flex">
+        <input type="text" class="input" />
+        <button class="btn btn-primary">Sign up</button>
+      </div>
+      <div class="flex">
+        <input type="text" class="input input-opaque" />
+        <button class="btn btn-white">Sign up</button>
+      </div>
+    </div>
+    <h1>Icons</h1>
+    <div class="flex col lightGrey" style="background-color: tomato">
+      <img src="./assets/svg/Caret--down.svg" width="25" />
+      <img src="./assets/svg/Checkmark--outline.svg" width="25" />
+      <img src="./assets/svg/Close.svg" width="25" />
+      <img src="./assets/svg/Delivery.svg" width="25" />
+      <img src="./assets/svg/Logo--facebook.svg" width="25" />
+    </div>
+    <h1>Buttons</h1>
+    <div class="flex col lightGrey" style="background-color: tomato">
+      <button class="btn btn-white">Click me</button>
+      <button class="btn btn-secondary">Click me</button>
+      <button class="btn btn-primary">Click me</button>
+      <button class="btn btn-opaque">Click me</button>
+      <button class="btn btn-ghost">Click me</button>
+    </div>
+    <h1>Colors</h1>
+    <div class="flex">
+      <div class="box darkPrimary"></div>
+      <div class="box primary"></div>
+      <div class="box lightGrey"></div>
+      <div class="box borderGrey"></div>
+      <div class="box white"></div>
+      <div class="box borderDark"></div>
+    </div>
+    <h1>Typography</h1>
+    <h1 class="h1">Some text</h1>
+    <h2 class="h2">Some text</h2>
+    <h3 class="h3">Some text</h3>
+    <h4 class="h4">Some text</h4>
+    <h5 class="h5">Some text</h5>
+    <h6 class="h6">Some text</h6>
+    <p class="text-sm">Some text</p>
+    <p class="text-md">Some text</p>
+    <p class="text-lg">Some text</p>
+  </body>
+</html>

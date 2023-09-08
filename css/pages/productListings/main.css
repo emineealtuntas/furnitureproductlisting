@@ -1,0 +1,49 @@
+main {
+  /* height: 400px; */
+  display: flex;
+}
+
+.filters {
+  flex: 1;
+  /* background-color: tomato; */
+  max-width: 385px;
+  min-width: 180px;
+  padding: 48px 8px 48px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.filters ul {
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.filters ul li {
+  list-style: none;
+}
+
+.products {
+  max-width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 32px;
+  padding: 36px 20px 36px 20px;
+}
+
+.product .image {
+  width: 305px;
+  height: 375px;
+}
+
+.product .title {
+  margin-top: 24px;
+}
+.product .subtitle {
+  margin-top: 8px;
+}

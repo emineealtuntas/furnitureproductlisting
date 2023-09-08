@@ -1,0 +1,39 @@
+header {
+  padding-inline: 28px;
+}
+nav.brand {
+  padding-block: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+a.brand {
+  flex-grow: 1;
+  text-align: center;
+}
+
+hr {
+  all: unset;
+  display: block;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+nav.links {
+  padding-block: 20px;
+}
+
+nav.links ul {
+  all: unset;
+  display: flex;
+  justify-content: center;
+}
+nav.links ul li {
+  list-style: none;
+  padding: 0 16px;
+}
+nav.links ul li a {
+  color: #726e8d;
+}

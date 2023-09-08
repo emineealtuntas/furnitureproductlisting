@@ -1,0 +1,28 @@
+.features {
+  margin: 60px 80px;
+}
+.features-title {
+  text-align: center;
+}
+.feature-list {
+  margin-top: 50px;
+  display: flex;
+  gap: 60px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature .icon {
+  width: 24px;
+}
+
+.feature .title {
+  margin-top: 16px;
+}
+
+.feature .subtitle {
+  margin-top: 8px;
+}

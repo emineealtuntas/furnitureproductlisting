@@ -1,0 +1,76 @@
+.h1 {
+  margin: 0;
+  font-family: "ClashDisplay-Regular";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.h2 {
+  margin: 0;
+  font-family: "ClashDisplay-Regular";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.h3 {
+  margin: 0;
+  font-family: "ClashDisplay-Regular";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.h4 {
+  margin: 0;
+  font-family: "ClashDisplay-Regular";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.h5 {
+  margin: 0;
+  font-family: "ClashDisplay-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.h6 {
+  margin: 0;
+  font-family: "ClashDisplay-Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.text-sm {
+  font-family: "Satoshi-Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.text-md {
+  font-family: "Satoshi-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.text-lg {
+  font-family: "Satoshi-Regular";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}

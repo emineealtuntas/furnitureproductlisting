@@ -1,0 +1,31 @@
+.form-check {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.form-check-input {
+  all: unset;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid #dcdcdc;
+  background: var(--white, #fff);
+  transition: 0.3s;
+}
+.form-check-input:checked {
+  border-radius: 2px;
+  border: 1px solid var(--primary, #4e4d93);
+  background: var(--primary, #4e4d93);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='M6.5 12L2 7.49997L2.707 6.79297L6.5 10.5855L13.293 3.79297L14 4.49997L6.5 12Z' fill='white'/%3E%3C/svg%3E");
+}
+.form-check-label {
+  user-select: none;
+  /* Font */
+  font-family: "Satoshi-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
